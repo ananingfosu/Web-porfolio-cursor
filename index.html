@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <nav>
+      <div class="nav-content">
+        <div class="logo">Ananing Fosu</div>
+        <div class="nav-right">
+          <a href="#" class="nav-resume-btn">Resume</a>
+          <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section id="hero" class="hero-section">
+        <div class="hero-content">
+          <h1 class="parallax" data-speed="0.05">Designer & <br />Developer</h1>
+          <p class="hero-text">
+            Crafting digital experiences through clean and efficient code
+          </p>
+        </div>
+        <div class="scroll-indicator parallax" data-speed="0.1">
+          <span>Scroll to explore</span>
+          <div class="scroll-line"></div>
+        </div>
+      </section>
+
+      <!-- New About Section -->
+      <section id="about" class="about-section">
+        <div class="about-grid">
+          <div class="about-empty"></div>
+          <div class="about-content">
+            <h2 class="parallax" data-speed="0.05">About</h2>
+            <p class="about-text fade-in parallax" data-speed="0.04">
+              I'm a creative developer passionate about crafting digital
+              experiences that merge innovative design with cutting-edge
+              technology. With a focus on clean code and intuitive user
+              interfaces, I bring ideas to life through thoughtful development
+              and attention to detail.
+            </p>
+            <div class="skills">
+              <div class="skill-category">
+                <h3>Development</h3>
+                <p>JavaScript, React, Flutter, Python</p>
+              </div>
+              <div class="skill-category">
+                <h3>Design</h3>
+                <p>UI/UX, Figma, Adobe Creative Suite</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="work-section">
+        <div class="section-header">
+          <h2>Work</h2>
+        </div>
+
+        <!-- Featured Project -->
+        <div class="featured-project">
+          <div class="featured-project-image mask-effect">
+            <img src="assets/project1.jpg" alt="Featured Project" />
+          </div>
+          <div class="featured-project-content">
+            <span class="featured-label">Featured Project</span>
+            <h3>Project Name</h3>
+            <p class="featured-description">
+              A detailed description of your featured project. Explain the key
+              features, technologies used, and the problem it solves. Make this
+              stand out as your best or most significant work.
+            </p>
+            <div class="featured-tech-stack">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+            <a href="#" class="featured-project-link">View Project →</a>
+          </div>
+        </div>
+
+        <!-- Regular Project Grid -->
+        <div class="project-grid">
+          <article class="project-card fade-in">
+            <div class="project-image mask-effect">
+              <img src="assets/project1.jpg" alt="Project One" />
+            </div>
+            <h2>Project One</h2>
+            <p>Use masks following our camera selected as profit</p>
+            <a href="#" class="project-link">View Case Study →</a>
+          </article>
+
+          <article class="project-card fade-in">
+            <div class="project-image mask-effect">
+              <img src="assets/project2.jpg" alt="Project Two" />
+            </div>
+            <h2>Project Two</h2>
+            <p>Utilize or be the mains of work</p>
+            <a href="#" class="project-link">View Case Study →</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-left">
+          <h3>Let's Connect</h3>
+          <p>Open for opportunities</p>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:your@email.com">Email</a>
+          <a href="#">Github</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Dribbble</a>
+          <a href="#">Pinterest</a>
+          <a href="#">WhatsApp</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-credit">
+          Made by
+          <a href="https://github.com/yourusername" target="_blank"
+            >Ananing Fosu</a
+          >
+        </p>
+        <p class="footer-copyright">&copy; 2024 All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
